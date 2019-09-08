@@ -160,6 +160,11 @@ const pool = mysql.createPool({
 
 module.exports = pool;
 ```
+### To run mysql inside docker
+
+```
+docker-compose up -d
+```
 
 ### Writing the handler function
 
